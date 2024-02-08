@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <h1  class="Heading">
+          Calculator
+        </h1>
+        <p id="result">
+          
+        </p>
+        <div class="Calci">
+          <button onclick="Clear()">
+            AC
+          </button>
+          <button onclick="BackSpace()">
+            Clear
+          </button>
+          <button onclick="Operator('%')">
+            %
+          </button>
+          <button onclick="Operator('/')">
+            /
+          </button><br/>
+          <button  onclick="setNumber(7)">
+            7
+          </button>
+          <button onclick="setNumber(8)">
+            8
+          </button>
+          <button onclick="setNumber(9)">
+            9
+          </button>
+          <button onclick="Operator('*')">
+            *
+          </button><br/>
+          <button onclick="setNumber(4)">
+            4
+          </button>
+          <button onclick="setNumber(5)">
+            5
+          </button>
+          <button onclick="setNumber(6)">
+            6
+          </button>
+          <button onclick="Operator('-')">
+            -
+          </button><br/>
+          <button onclick="setNumber(1)">
+            1
+          </button>
+          <button onclick="setNumber(2)">
+            2
+          </button>
+          <button onclick="setNumber(3)">
+            3
+          </button>
+          <button onclick="Operator('+')">
+            +
+          </button><br/>
+          <button onclick="setNumber('00')">
+            00
+          </button>
+          <button onclick="setNumber(0)">
+            0
+          </button>
+          <button>
+            .
+          </button>
+          <button onclick=Answer()>
+            =
+          </button>
+        </div>
+      </div>
+
+
+    <script src="index.js"> </script>
+</body>
+</html>
