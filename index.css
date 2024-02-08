@@ -1,0 +1,16 @@
+.container{
+    text-align: center;
+}
+p{
+    height: 25px;
+    font-size: 25px;
+}
+button{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 20%;
+    border: none;
+} 
+
+  
